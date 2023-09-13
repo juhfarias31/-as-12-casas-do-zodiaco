@@ -6,7 +6,8 @@ function MudaDesenho(){
 
     if((valor=="aries")||(valor=="Aries")||(valor=="Áries")||(valor=="áries")||(valor=="ARIES")||(valor=="ÁRIES")){
         texto2.innerHTML = "Áries!";
-        imagem.setAttribute("src","img/A.png");       
+        imagem.setAttribute("src","img/A.png"); 
+        imagem.setAttribute("width","300px");
         texto.innerHTML = "Cavaleiro de Ouro do signo de Áries. Natural do Tibete. Elegante e tem personalidade pacífica. É o único capaz de restaurar armaduras. Tem admiração pelo Dohko, amigo do mestre Shion e o chama de Velho Mestre. É forte nas técnicas de Psicocinese, teletransporte e de defesa 'Muralha de Cristal' que aplicam a supercapacidade.";
     }
     else if((valor=="touro") || (valor=="Touro") || (valor=="TOURO")){
